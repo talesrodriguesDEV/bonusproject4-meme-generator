@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tales Rodrigues - Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Gerador de memes!</h1></header>
+    <label for="text-input">Digite um texto:</label>
+    <!-- Requsitos 1, 2 e 5 -->
+    <input type="text" id="text-input" maxlength="60"> <br>
+    <input type="file" id="meme-insert" accept="image/*">
+    <section id="meme-image-container">
+        <p id="meme-text"></p>
+        <img id="meme-image">
+    </section>
+    <p>Escolha uma borda:</p>
+    <!-- Requsitos 6 -->
+    <button id="fire"></button>
+    <button id="water"></button>
+    <button id="earth"></button>
+    <!-- Requsitos 7 -->
+    <p>Sugestão de memes:</p>
+    <section id="memes">
+        <img id="meme-1" class="mini">
+        <img id="meme-2" class="mini">
+        <img id="meme-3" class="mini">
+        <img id="meme-4" class="mini">
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
